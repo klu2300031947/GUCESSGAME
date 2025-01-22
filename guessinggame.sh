@@ -12,7 +12,7 @@ function start_game() {
     if [[ $guess -lt $correct_count ]]; then
       echo "Your guess is too low. Try again."
     elif [[ $guess -gt $correct_count ]]; then
-      echo "Your guess is too high. Try again."
+      echo "Your guess is too high. Try again." 
     fi
   done
 
